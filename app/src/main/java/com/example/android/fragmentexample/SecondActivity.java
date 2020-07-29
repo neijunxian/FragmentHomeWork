@@ -87,8 +87,6 @@ public class SecondActivity extends AppCompatActivity {
         super.onSaveInstanceState(savedInstanceState);
     }
     public void PreviousPage(View view) {
-        Intent intent = new Intent(SecondActivity.this,
-                MainActivity.class);
-        startActivity(intent);
+        finish();
     }
 }
